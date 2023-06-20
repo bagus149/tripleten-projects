@@ -1,4 +1,4 @@
-# yandex-practicum-projects
+# tripleten-projects
 Compilation of all projects I've completed throughout [Data Science Professional Training Program on TripleTen](https://tripleten.com/id-idn/) 
 
 | Nama Projek              | Deskripsi                 | Library                      |
