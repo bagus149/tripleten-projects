@@ -7,23 +7,23 @@ Perusahaan ini tertarik pada:
 
 # Dataset
 Fitur:
-- DateCrawled — tanggal ketika profil diunduh dari database
-- VehicleType — jenis bodi kendaraan
-- RegistrationYear — tahun registrasi kendaraan
-- Gearbox — jenis transmisi
-- Power — daya (hp)
-- Model — model kendaraan
-- Mileage — jarak tempuh (diukur dalam satuan km berdasarkan dataset regional tertentu)
-- RegistrationMonth — bulan registrasi kendaraan
-- FuelType — jenis bahan bakar
-- Brand — merek kendaraan
-- NotRepaired — apakah kendaraan pernah direparasi sebelumnya
-- DateCreated — tanggal pembuatan profil
-- NumberOfPictures — jumlah gambar kendaraan
-- PostalCode — kode pos pemilik profil (pengguna)
-- LastSeen — tanggal aktivitas terakhir pengguna
+- _DateCrawled_ — tanggal ketika profil diunduh dari database
+- _VehicleType_ — jenis bodi kendaraan
+- _RegistrationYear_ — tahun registrasi kendaraan
+- _Gearbox_ — jenis transmisi
+- _Power_ — daya (hp)
+- _Model_ — model kendaraan
+- _Mileage_ — jarak tempuh (diukur dalam satuan km berdasarkan dataset regional tertentu)
+- _RegistrationMonth_ — bulan registrasi kendaraan
+- _FuelType_ — jenis bahan bakar
+- _Brand_ — merek kendaraan
+- _NotRepaired_ — apakah kendaraan pernah direparasi sebelumnya
+- _DateCreated_ — tanggal pembuatan profil
+- _NumberOfPictures_ — jumlah gambar kendaraan
+- _PostalCode_ — kode pos pemilik profil (pengguna)
+- _LastSeen_ — tanggal aktivitas terakhir pengguna
 Target:
-- Price — harga (dalam satuan Euro)
+- _Price_ — harga (dalam satuan Euro)
 
 # Library
 - pandas
