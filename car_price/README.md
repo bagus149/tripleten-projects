@@ -22,6 +22,7 @@ Fitur:
 - _NumberOfPictures_ — jumlah gambar kendaraan
 - _PostalCode_ — kode pos pemilik profil (pengguna)
 - _LastSeen_ — tanggal aktivitas terakhir pengguna
+  
 Target:
 - _Price_ — harga (dalam satuan Euro)
 
