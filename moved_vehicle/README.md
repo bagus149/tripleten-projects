@@ -1,5 +1,5 @@
-## Deskripsi Proyek:
-Ada beberapa iklan mobil yang ditayangkan setiap hari. Namun, kita harus menentukan faktor apa saja yang menentukan harga suatu kendaraan.
+## Project Description:
+There are several car advertisements aired every day. However, we need to determine the factors that influence the price of a vehicle.
 
 ## Data:
 **Features:**
@@ -8,20 +8,20 @@ Ada beberapa iklan mobil yang ditayangkan setiap hari. Namun, kita harus menentu
 - *model*
 - *condition*
 - *cylinders*
-- *fuel* - gas, disel, dan lain-lain.
-- *odometer* - jarak tempuh kendaraan saat iklan ditayangkan.
+- *fuel* - Gasoline, diesel, and others.
+- *odometer* - The distance traveled by the vehicle when the advertisement is aired..
 - *transmission*
 - *paint_color*
-- *is_4wd* - apakah kendaraan memiliki penggerak 4 roda.
-- *date_posted* - tanggal iklan ditayangkan.
-- *days_listed* - jumlah hari iklan ditayangkan hingga dihapus.
+- *is_4wd* - Does the vehicle have four-wheel drive?
+- *date_posted* - The date when the advertisement is aired.
+- *days_listed* - The number of days the advertisement is aired until it is removed.
 
-## Tujuan:
-Mengetahui faktor-faktor apa saja yang memengaruhi harga sebuah mobil:
-- Harga sebuah mobil dipengaruhi oleh usia mobil.
-- Harga sebuah mobil dipengaruhi oleh jarak tempuh mobil.
-- Harga sebuah mobil dipengaruhi oleh kondisi mobil.
-- Harga sebuah mobil dipengaruhi tipe transmisi.
+## Goals:
+Knowing the factors that influence the price of a car:
+- The price of a car is influenced by the age of the car.
+- The price of a car is influenced by the mileage of the car.
+- The price of a car is influenced by the condition of the car.
+- The price of a car is influenced by the type of transmission.
 
 ## Library:
 - pandas
