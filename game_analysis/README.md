@@ -1,5 +1,5 @@
-## Deskripsi Proyek:
-Pada proyek kali ini kita akan menentukan apakah suatu game bisa dikatakan berhasil atau tidak di wilayah atau market-market tertentu dan menentukan game mana yang paling berpotensi dalam penjualan. Adapun data yang akan dipakai adalah data penjualan lama dari tahun 2016. Data ini berisi nama game, platform yang dipakai, tahun rilis, genre, penilaian dari pengguna dan kritikus, dan juga berisi tentang rating dari ESRB.
+## Project Description:
+In this project, we will determine whether a game can be considered successful or not in specific regions or markets and identify which games have the highest sales potential. The data used will be historical sales data from 2016, which includes the game's name, the platform used, release year, genre, user and critic ratings, as well as ESRB rating.
 
 ## Data:
 **Features**
@@ -7,21 +7,21 @@ Pada proyek kali ini kita akan menentukan apakah suatu game bisa dikatakan berha
 - *Platform*
 - *Year_of_Release* - tahun rilis
 - *Genre*
-- *NA_sales* - penjualan di Amerika Utara dalam satuan juta USD
-- *EU_sales* - penjualan di Eropa dalam satuan juta USD
-- *JP_sales* - penjualan di Jepang dalam satuan juta USD
-- *Other_sales* - penjualan di negara lainnya dalam satuan juta USD
-- *Critic_Score* - skor ulasan dari kritikus, maksimal 100
-- *User_score* - skor ulasan dari pengguna, maksimal 10
+- *NA_sales* - Sales in North America in million USD
+- *EU_sales* - Sales in Europe in million USD
+- *JP_sales* - Sales in Japan in million USD
+- *Other_sales* - Sales in other countries in million USD
+- *Critic_Score* - Review scores from critics, maximum 100
+- *User_score* - Review scores from users, maximum 10
 - *Rating* - ESRB
 
-## Tujuan:
-- Menentukan pola apa saja yang menguntungkan dalam penjualan suatu game.
-- Membuktikan beberapa hipotesis berikut:
-  - Rata-rata rating pengguna platform Xbox One dan PC adalah sama.
-  - Rata-rata rating pengguna genre Action dan Sports berbeda.
+## Goals:
+- Determining profitable patterns in game sales.
+- Proving the following hypotheses:
+  - The average user ratings for the Xbox One and PC platforms are the same.
+  - The average user ratings for the Action and Sports genres are different.
 
-## Library yang Digunakan:
+## Libraries:
 - pandas
 - numpy
 - matplotlib
