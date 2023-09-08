@@ -1,54 +1,54 @@
-## Deskripsi Proyek:
-Ptojek kali ini adalah tentang paket yang ditawarkan oleh suatu perusahaan. Paket yang ditawarkan ada dua yaitu paket Ultimate dan paket Surf. Masing-masing paket memiliki keunggulannya masing-masing sesuai dengan kebutuhan pengguna. Data pengguna terdiri dari 500 yang diambil di tahun 2018. Adapun tujuan projek kali ini adalah:
-- Menganalisis prilaku pengguna dalam memilih paket.
-- Menganalisis paket mana yang paling menguntungkan.
-- Menganalisis pendapatan paket Ultimate dan Surf.
-- Menganalisis pendapatan dari beberapa kota.
+## Project Description:
+This project is about the packages offered by a company. There are two packages available: the Ultimate package and the Surf package. Each package has its own advantages according to the users' needs. The user data consists of 500 records collected in 2018. The goals of this project are as follows:
+- Analyzing user behavior in choosing a package.
+- Analyzing which package is the most profitable.
+- Analyzing the revenue from the Ultimate and Surf packages.
+- Analyzing the revenue from various cities.
 
 ## Data:
 
 ### Tabel *users*:
-- *user_id* - pengguna
-- *firs_name* - nama depan pengguna
-- *last_name* - nama belakang pengguna
-- *age* - usia pengguna
-- *reg_date* - tanggal mulai berlangganan
-- *churn_date* - tanggal pengguna berhenti layanan
-- *city* - kota tempat tinggal pengguna
-- *plan* - nama paket telpon
+- *user_id* - users
+- *firs_name* - user's first name
+- *last_name* - user's last name
+- *age* - user's age
+- *reg_date* - Subscription start date
+- *churn_date* - Date of service termination
+- *city* - User's city of residence
+- *plan* - The phone package name
 
 ### Tabel *calls*:
-- *id* - ID sesi telpon unik
-- *call_date* - tanggal panggilan
-- *duration* - durasi pangglan dalam menit
-- *user_id* - ID pengguna yang melakukan panggilan
+- *id* - The unique session ID for phone calls
+- *call_date* - The call date
+- *duration* - The call duration in minutes
+- *user_id* - User ID who made the call
 
 ### Tabel *messages*:
-- *id* - ID SMS unik
-- *message_date* - tanggal SMS dikirim
-- *user_id* - ID pengguna yang mengirim SMS
+- *id* - Unique SMS ID
+- *message_date* - SMS sent date
+- *user_id* - Unique user ID for sending SMS
 
 ### Tabel *internet*:
-- *id* - ID sesi web unik
-- *mb_used* - volume data yang dihabiskan dalam sesi
-- *session_date* - tanggal sesi web
-- *user_id* - ID pengguna
+- *id* - Unique web session ID
+- *mb_used* - The volume of data consumed during the session
+- *session_date* - Session date for web usage
+- *user_id* - User ID for web sessions
 
 ### Tabel *plans*:
-- *plan_name* - nama paket telpon
-- *usd_monthly_fee* - biaya bulanan dalam dolar AS
-- *minutes_included* - alokasi menit panggilan bulanan
-- *messages_included* - alokasi SMS bulanan
-- *mb_per_month_included* - alokasi volume data bulanan
-- *usd_per_minute* - harga per menit jika sudah melebihi batas paket
-- *usd_per_message* - harga per SMS jika sudah melebihi batas paket
-- *usd_per_gb* - harga per ekstra gigabita jika sudah melebihi batas paket
+- *plan_name* - Phone package name
+- *usd_monthly_fee* - Monthly cost in US dollars
+- *minutes_included* - Monthly allocation of call minutes
+- *messages_included* - Monthly allocation of SMS
+- *mb_per_month_included* - Monthly data volume allocation
+- *usd_per_minute* - Price per minute if exceeded package limit
+- *usd_per_message* - Price per SMS if exceeded package limit
+- *usd_per_gb* - Price per extra gigabit if exceeded package limit
 
-## Target:
-- Uji hipotesis Rata-rata pendapatan dari pengguna paket telepon Ultimate dan Surf berbeda.
-- Uji hipotesis Rata-rata pendapatan dari pengguna di wilayah NY-NJ berbeda dengan pendapatan pengguna dari wilayah lain.
-
-## Library yang digunakan:
+## Targets:
+- Hypothesis test: The average income of Ultimate and Surf phone package users is different.
+- Hypothesis test: The average income of users in the NY-NJ region is different from the income of users from other regions.
+- 
+## Libraries:
 - *pandas*
 - *numpy*
 - *scipy*
