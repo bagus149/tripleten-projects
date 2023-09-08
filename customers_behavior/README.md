@@ -1,26 +1,26 @@
-# Deskripsi Proyek:
-Pada proyek ini, kita ditugaskan untuk memprediksi apakah nasabah akan segera meninggalkan bank atau tidak berdasarkan data yang didapatkan di masa lalu. Tugas kita adalah untuk membuat model yang mana memiliki skor F1 minimal 0,59 ketika diuji dengan data test.
+# Project Description:
+Your task is to predict whether customers will soon leave the bank or not based on historical data. Your goal is to create a model that achieves a minimum F1 score of 0.59 when tested with the test data.
 
 # Dataset:
-Fitur-fitur:
-- _RowNumber_ - indek string data
-- _CutomerId_ - ID pelanggan
-- _Surname_ - nama belakang
-- _CreditScore_ - skor kredit
-- _Geography_ - negara domisili
-- _Gender_ - gender
-- _Age_ - umur
-- _Tenure_ - jangka waktu jatuh tempo untuk deposito tetap nasabah (tahun)
-- _Balance_ - saldo rekening
-- _NumOfProducts_ - jumlah produk bank yang digunakan oleh nasabah
-- _HasCrCard_ - apakah nasabah memiliki kartu kredit (1 - jika ya; 0 - jika tidak)
-- _IsActivemember_ - tingkat keaktifan nasabah (1 - jika ya; 0 - jika tidak)
-- _EstimatedSalary_ - estimasi gaji
+Features:
+- _RowNumber_ - String data index
+- _CutomerId_ - Customer ID
+- _Surname_ - Last name
+- _CreditScore_ - Credit score
+- _Geography_ - Country of residence
+- _Gender_ - Gender
+- _Age_ - Age
+- _Tenure_ - Maturity period for customer's fixed-term deposit (years)
+- _Balance_ - Account balance
+- _NumOfProducts_ - Number of bank products used by the customer
+- _HasCrCard_ - Whether the customer has a credit card (1 - yes; 0 - no)
+- _IsActivemember_ - Customer's activity level (1 - yes; 0 - no)
+- _EstimatedSalary_ - Estimated salary
 
 Target:
-- _Exited_ - apakah nasabah telah berhenti (1 - jika ya; 0 - jika tidak)
+- _Exited_ - Whether the customer has churned (1 - yes; 0 - no)
 
-# Library:
+# Libraries:
 - _pandas_
 - _matplotlib_
 - _sklearn_
