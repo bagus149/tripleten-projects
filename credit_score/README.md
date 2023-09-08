@@ -1,22 +1,22 @@
-## Deskripsi Proyek:
-Pada proyek ini kita mencari tahu pengaruh status keadaan nasabah terhadap probabilitas gagal bayar dalam melunasi pinjaman. Penilaian kredit digunakan untuk mengevaluasi kemampuan calon peminjam untuk melunasi pinjaman mereka.
+## Project Description:
+In this project, we are investigating the impact of the customer's financial status on the probability of defaulting on loan repayments. Credit scoring is used to assess the ability of prospective borrowers to repay their loans.
 
 ## Data:
 **Features**
-- *children* - jumlah anak dalam keluarga.
-- *days_employed* - berapa lama nasabah telah bekerja.
-- *dob_years* - usia nasabah.
-- *education* - tingkat pendidikan nasabah.
-- *educationid* - pengidentifikasi untuk tingkat pendidikan nasabah.
-- *family_status* - status perkawinan nasabah.
-- *family_status_id* - pengidentifikasi untuk status perkawinan nasabah.
-- *gender* - jenis kelamin nasabah.
-- *income_type* - jenis pendapatan nasabah.
-- *debt* - apakah nasabah pernah melakukan gagal bayar pinjaman.
-- *total_income* - pendapatan bulanan.
-- *purpose* - alasan mengambil pinjaman.
+- *children* - Number of children in the family.
+- *days_employed* - How long the customer has been employed.
+- *dob_years* - The customer's age.
+- *education* - Customer's education level.
+- *educationid* - Identifier for customer's education level.
+- *family_status* - Customer's marital status.
+- *family_status_id* - Identifier for customer's marital status.
+- *gender* - Customer's gender.
+- *income_type* - Customer's income type.
+- *debt* - apakah Whether the customer has previously defaulted on a loan.
+- *total_income* - Monthly income.
+- *purpose* - Reason for taking out a loan.
 
-## Tujuan:
-- Seseorang gagal dalam membayar pinjaman karena ada pengeluaran lain untuk istri dan anaknya.
-- Seseorang gagal dalam membayar pinjaman karena pendapatannya yang ternyata tidak cukup.
-- Perbedaan tujuan dalam melakukan pinjaman bisa menjadi faktor seseorang gagal dalam melakukan pinjaman.
+## Goals:
+- Someone failed to repay the loan due to other expenses for their wife and children.
+- Someone failed to repay the loan because their income turned out to be insufficient.
+- Differences in loan purposes can be a factor in someone's failure to repay the loan.
