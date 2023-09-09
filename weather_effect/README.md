@@ -1,38 +1,38 @@
-## Deskripsi Proyek
-Anda bekerja sebagai seorang analis untuk Zuber, sebuah perusahaan berbagi tumpangan (ride-sharing) baru yang diluncurkan di Chicago. Tugas Anda adalah untuk menemukan pola pada informasi yang tersedia. Anda ingin memahami preferensi penumpang dan dampak faktor eksternal terhadap perjalanan. Dengan menggunakan basis data, Anda akan menganalisis data dari kompetitor dan menguji hipotesis terkait pengaruh cuaca terhadap frekuensi perjalanan.
+## Project Description:
+In this project, we work as an analyst for a company, a new ride-sharing company launched in Chicago. Our task is to discover patterns in the available information. We want to understand passenger preferences and the impact of external factors on rides. Using the database, we analyze data from competitors and test hypotheses related to the influence of weather on ride frequency.
 
-## Data
-Basis data yang memuat informasi perjalanan taksi di Chicago:
-Tabel `neighborhoods`: data terkait wilayah di kota Chicago
+## Data:
+Database containing taxi trip information in Chicago:
+Table `neighborhoods`: data related to neighborhoods in the city of Chicago.
 
-- _name_: nama wilayah
-- _neighborhood_id_: kode wilayah
+- _name_: Neighborhood names
+- _neighborhood_id_: Neighborhood codes
 
-Tabel `cabs`: data terkait taksi
+Table `cabs`: Taxi data
 
-- _cab_id_: kode kendaraan
-- _vehicle_id_: ID teknis kendaraan
-- _company_name_: nama perusahaan yang memiliki kendaraan
+- _cab_id_: Vehicle codes
+- _vehicle_id_: Vehicle technical IDs
+- _company_name_: Company names that own the vehicles
 
-Tabel `trips`: data terkait perjalanan
+Table `trips`: Trip data
 
-- _trip_id_: kode perjalanan
-- _cab_id_: kode kendaraan yang beroperasi
-- _start_ts_: tanggal dan waktu perjalanan dimulai (waktu dibulatkan dalam satuan jam)
-- _end_ts_: tanggal dan waktu perjalanan berakhir (waktu dibulatkan dalam satuan jam)
-- _duration_seconds_: durasi perjalanan dalam satuan detik
-- _distance_miles_: jarak perjalanan dalam satuan mil
-- _pickup_location_id_: kode wilayah penjemputan
-- _dropoff_location_id_: kode wilayah pengantaran
+- _trip_id_: Trip codes
+- _cab_id_: Operating vehicle codes
+- _start_ts_: Start date and time of the trip (time rounded to the nearest hour)
+- _end_ts_: End date and time of the trip (time rounded to the nearest hour)
+- _duration_seconds_: Trip duration in seconds
+- _distance_miles_: Trip distance in miles
+- _pickup_location_id_: Pickup neighborhood code
+- _dropoff_location_id_: Drop-off neighborhood code
 
-Tabel `weather_records`: data terkait cuaca
+Table `weather_records`: Weather Data
 
-- _record_id_: kode catatan cuaca
-- _ts_: tanggal dan waktu saat pencatatan cuaca dilakukan (waktu dibulatkan dalam satuan jam)
-- _temperature_: suhu saat pencatatan cuaca dilakukan
-- _description_: deskripsi singkat tentang kondisi cuaca, seperti "light rain" (hujan ringan) atau "scattered clouds" (berawan)
-
-## Libraries
+- _record_id_: Weather record code
+- _ts_: Date and time when the weather record was taken (time rounded to the nearest hour)
+- _temperature_: Temperature at the time of the weather recording
+- _description_: Brief description of the weather conditions, such as "light rain" or "scattered clouds"
+- 
+## Libraries:
 - _pandas_
 - _requests_
 - _BeautifulSoup_
