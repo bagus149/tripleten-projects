@@ -1,26 +1,27 @@
-# Deskripsi Proyek:
-Data ini diindeks sesuai dengan tanggal dan waktu perolehannya (fitur date). Terkait waktu, parameter yang letaknya bersebelahan umumnya bersifat mirip. Sebagian parameter tidak tersedia karena pengukuran dan/atau penghitungannya dilakukan jauh setelahnya. Itulah sebabnya, beberapa fitur yang ada di training set mungkin tidak ada di test set. Test set-nya pun juga tidak memuat target. Dataset sumber memuat training dan test set dengan semua fitur-fiturnya.
-# Dataset:
-Proses Teknologi:
-- _Rougher feed_ - bahan mentah untuk proses flotasi.
-- _Rougher addtions_ - reagen untuk flotasi: Xanthate, Sulphate, Depressant.
-    - _Xanthate_ - penggerak atau aktivator flotasi
-    - _Sulphate_ - natrium sulfida, khusus untuk proses ini.
-    - _Depressant_ - natrium silikat.
-- _Rougher process_ - flotasi.
-- _Rougher tails_ - residu produk.
-- _Float banks_ - unit flotasi.
-- _Cleaner process_ - pemurnian.
-- _Rougher Au_ - konsentrat emas yang lebih kasar.
-- _Final Au_ - konsentrat emas akhir.
+## Project Description:
+Data is indexed by the date and time of acquisition (the date feature). Regarding time, parameters that are close together are generally similar. Some parameters are not available because their measurement and/or calculation are done long afterward. That's why some features present in the training set may not be in the test set. The test set also does not include the target variable. The source dataset includes both the training and test sets with all their features.
 
-Parameter dari Tahap-Tahap yang Tersedia:
-- _air amount_ - volume udara.
+## Dataset:
+Proses Teknologi:
+- _Rougher feed_ - Raw material for the flotation process.
+- _Rougher additions_ - Reagents for flotation: Xanthate, Sulphate, Depressant.
+  - _Xanthate_ - flotation reagent or activator.
+  - _Sulphate_ - sodium sulphide, specific to this process.
+  - _Depressant_ - sodium silicate.
+- _Rougher process_ - Flotation.
+- _Rougher tails_ - Residue product.
+- _Float banks_ - Flotation units.
+- _Cleaner process_ - Purification.
+- _Rougher Au_ - Rougher gold concentrate.
+- _Final Au_ - Final gold concentrate.
+
+Parameters from the available stages:
+- _air amount_ - air volume.
 - _fluid levels_
-- _feed size_ - ukuran partikel umpan.
+- _feed size_ - particle size of the feed.
 - _feed rate_
 
-# Library:
+# Libraries:
 - _pandas_
 - _matplotlib_
 - _sklearn_
