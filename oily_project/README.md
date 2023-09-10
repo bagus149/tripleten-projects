@@ -7,12 +7,12 @@ In this project, we are tasked with finding a suitable location for drilling a n
 
 The data used is oil data from three regions. From this data, a model will be created to assist in the selection of a region.
 
-# Data:
+## Data:
 - _id_ - Unique ID for the oil well
 - _f0, f1, f2_ - Three feature points (the specific meaning is not important, but the features themselves are significant)
 - _product_ - Oil reserve volume in the well (in thousands of barrels).
 
-# Libraries:
+## Libraries:
 - _pandas_
 - _numpy_
 - _matplotlib_
