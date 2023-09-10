@@ -1,18 +1,18 @@
-# Deskripsi Proyek:
-Pada proyek ini kita ditugaskan untuk menemukan lokasi yang cocok untuk penggalian sumur minyak baru. Adapun langkah-langkah untuk memilih lokasi baru adalah:
-- Kumpulkan parameter untuk membangun sumur minyak di beberapa wilayah terpilih: kualitas minyak dan volume cadangan minyak.
-- Buatlah sebuah model yang mampu memprediksi volume cadangan minyak di sumur yang baru.
-- Pilihlah sumur minyak dengan nilai estimasi tertinggi.
-- Pilihlah wilayah dengan total laba tertinggi untuk sumur minyak terpilih.
+## Project Description:
+In this project, we are tasked with finding a suitable location for drilling a new oil well. The steps to select a new location are as follows:
+- Gather parameters for drilling oil wells in several selected regions: oil quality and oil reserve volume.
+- Create a model capable of predicting the oil reserve volume in a new well.
+- Choose the oil well with the highest estimated value.
+- Select the region with the highest total profit for the selected oil well.
 
-Data yang dipakai adalah data minyak dari tiga wilayah. Dari data tersebut, akan dibuat model yang akan membantu dalam pemilihan wilayah.
+The data used is oil data from three regions. From this data, a model will be created to assist in the selection of a region.
 
 # Data:
-- _id_ - ID unik sumur minyak
-- _f0, f1, f2_ - tiga fitur titik (makna spesifiknya tidak penting, tetapi fitur itu sendiri signifikan)
-- _product_ - volume cadangan minyak di sumur (ribuan barel).
+- _id_ - Unique ID for the oil well
+- _f0, f1, f2_ - Three feature points (the specific meaning is not important, but the features themselves are significant)
+- _product_ - Oil reserve volume in the well (in thousands of barrels).
 
-# Library:
+# Libraries:
 - _pandas_
 - _numpy_
 - _matplotlib_
