@@ -6,7 +6,7 @@ The company is interested in:
 - Prediction speed
 - Time required to train the model
 
-# Dataset:
+## Dataset:
 Features:
 - _DateCrawled_ — the date when the profile was crawled from the database.
 - _VehicleType_ — the type of vehicle body.
@@ -27,7 +27,7 @@ Features:
 Target:
 - _Price_ — price (in Euro)
 
-# Libraries:
+## Libraries:
 - pandas
 - matplotlib
 - seaborn
