@@ -1,16 +1,16 @@
-## Deksripsi Proyek
-Suatu perusahaan telekomunikasi ingin meramalkan tingkat _churn_ klien mereka. Jika diketahui klien akan pergi meninggalkan langganan, maka akan diberikan penawaran kode promosi dan opsi paket khusus.
+## Project Description:
+A telecommunications company wants to predict their customer churn rate. If it's known that a customer is about to leave their subscription, they plan to offer promotional codes and special package options.
 
-## Data
-Data yang tersedia terdiri beberapa file yang didapat dari sumber yang berbeda:
-* _contact.csv_ - informasi kontak
-* _personal.csv_ - data personal klien
-* _internet.csv_ - informasi tentang layanan internet
-* _phone.csv_ - informasi tentang layanan telpon
+## Data:
+The available data consists of several files obtained from different sources:
+- _contact.csv_ - contact information
+- _personal.csv_ - personal client data
+- _internet.csv_ - information about internet services
+- _phone.csv_ - information about phone services
 
-Pada setiap file terdapat _customerID_ dengan kode unik yang didapatkan dari setiap klien. Kontrak berlaku per 1 Februari 2020.
+In each file, there is a unique _customerID_ obtained from each client. The contracts are effective as of February 1, 2020.
 
-## Library
+## Libraries:
 * _pandas_
 * _sklearn_
 * _matplotlib_
