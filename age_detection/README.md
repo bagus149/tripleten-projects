@@ -1,19 +1,20 @@
-# Deskripsi Proyek
-Pada proyek ini, suatu waralaba supermarket ingin mengetahui apakah Data Science bisa membantu mereka dalam hal hukum dengan memastikan bahwa mereka tidak menjual produk dengan batasan umur kepada pelanggan di bawah umur. Dengan mengingat hal-hal berikut:
+## Project Description:
+In this project, a supermarket franchise wants to determine whether Data Science can assist them in legal matters by ensuring that they do not sell age-restricted products to underage customers. Taking into account the following:
 
-* Toko-toko dari waralaba ini dilengkapi dengan kamera di area kasir yang akan menampilkan sinyal ketika seseorang membeli produk dengan batasan usia
-* Metode visi komputer bisa digunakan untuk menentukan usia seseorang dari foto
-* Tugas Anda adalah membangun dan mengevaluasi sebuah model untuk memverifikasi usia seseorang
+* Stores in this franchise are equipped with cameras at the checkout area that will trigger a signal when someone purchases an age-restricted product.
+* Computer vision methods can be used to determine a person's age from a photo.
 
-# Dataset
+Your task is to build and evaluate a model to verify a person's age.
+
+## Dataset:
 Labels file:
-* file_name: nama foto
-* real_age: umur dari orang yang terhubung dengan file foto
+* file_name: photo name
+* real_age: the age of the person associated with the photo file
 
-# Tujuan
-Melatih dan mengevaluasi model untuk mengetahui umur dari setiap customer yang datang.
+## Target
+Train and evaluate a model to determine the age of every customer who arrives.
 
-# Libraries
+## Libraries
 - _pandas_
 - _numpy_
 - _matplotlib_
